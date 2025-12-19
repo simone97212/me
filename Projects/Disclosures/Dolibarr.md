@@ -90,7 +90,7 @@ Following the ![policy](policy.md)
 | 2025-12-03 | Vulnerability discovered |
 | 2025-12-05 | Report sent to Dolibarr Security Team |
 | 2025-12-09 | PM the Tech Lead |
-! 2025-12-16 | Ask CVE to MITRE (vendor didn't answer) |
+| 2025-12-16 | Request CVE to MITRE (vendor didn't answer) |
 | *Pending* | Fix developed and released |
 | *Pending* | CVE assignment |
 | *Pending* | Public disclosure allowed |
