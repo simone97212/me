@@ -1,6 +1,6 @@
 **About Me**
 
-I'm Simone Biondi and I am a Penetration Tester at Accenture and Security Researcher / Etichal Haker. You can find me on Linkedin[https://www.linkedin.com/in/simone-biondi-932683b7/]
+I'm Simone Biondi and I am a Penetration Tester at Accenture and Security Researcher / Etichal Hacker. You can find me on Linkedin[https://www.linkedin.com/in/simone-biondi-932683b7/]
 
 **Education**
 
