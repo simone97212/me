@@ -83,11 +83,14 @@ The intersection of these behaviors leads to a **Stored Priv-Esc chain attack**.
 
 ## Disclosure Timeline
 
+Following the ![policy](policy.md)
+
 | Date | Event |
 |------|-------|
 | 2025-12-03 | Vulnerability discovered |
 | 2025-12-05 | Report sent to Dolibarr Security Team |
 | 2025-12-09 | PM the Tech Lead |
+! 2025-12-16 | Ask CVE to MITRE (vendor didn't answer) |
 | *Pending* | Fix developed and released |
 | *Pending* | CVE assignment |
 | *Pending* | Public disclosure allowed |
