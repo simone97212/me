@@ -1,4 +1,4 @@
-# Bluetooth mouse crashed my Google Pixels 9
+# Bluetooth mouse crashed my Google Pixel 9
 
 Research and report by **Simone Biondi**
 
