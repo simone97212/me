@@ -56,10 +56,10 @@ The intersection of these behaviors leads to a **Stored Priv-Esc chain attack**.
 
 | Screenshot | Description |
 |-----------|-------------|
-| ![Screen1](1.png) | Link inserted by low-privileged user |
-| ![Screen2](2.png) | Admin view of user rights page |
-| ![Screen3](3.png) | Admin clicking the injected link |
-| ![Screen4](4.png) | Attacker now has admin permissions |
+| ![Screen1](screen/dolibarr/1.png) | Link inserted by low-privileged user |
+| ![Screen2](screen/dolibarr/2.png) | Admin view of user rights page |
+| ![Screen3](screen/dolibarr/3.png) | Admin clicking the injected link |
+| ![Screen4](screen/dolibarr/4.png) | Attacker now has admin permissions |
 
 
 ---
