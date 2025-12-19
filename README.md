@@ -1,6 +1,6 @@
 **About Me**
 
-I'm Simone Biondi and I am a Penetration Tester at Accenture and Security Researcher / Etichal Hacker. You can find me on Linkedin[https://www.linkedin.com/in/simone-biondi-932683b7/]
+I'm Simone Biondi and I am a Penetration Tester at Accenture and Security Researcher / Etichal Hacker. 
 
 **Education**
 
@@ -15,4 +15,14 @@ I'm Simone Biondi and I am a Penetration Tester at Accenture and Security Resear
 
 **About Repository**
 
-Here you can find and follow my activities as university or personal projects, disclosures, bugs, notes, etc...
+Here you can find and follow:
+
+- university and personal projects
+- disclosures, bugs
+- notes, etc...
+
+**Contacts**
+
+Email: biondisimone1997@gmail.com
+
+You can find me also on <a href=https://www.linkedin.com/in/simone-biondi-932683b7/>Linkedin</a>.
