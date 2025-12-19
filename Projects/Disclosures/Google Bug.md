@@ -14,7 +14,7 @@ Es. Microsoft Authenticator
 
 Open Authenticator and try to unlock it
 
-![screen1](screen/google/1.png =200x50)
+![screen1](screen/google/1.png)
 
 Move cursor inside popup (apps don't allow screen on popup, so it doesn't appear)
 
