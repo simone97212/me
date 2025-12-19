@@ -1,0 +1,102 @@
+# Privilege Escalation Vulnerability in Dolibarr ERP & CRM 22.0.9
+
+Research and report by **Simone Biondi**
+
+---
+Affected product: Dolibarr ERP&CRM
+
+Vulnerability: PrivEsc (HTML injection + CSRF)
+
+Version: 22.0.9 (maybe all before 22*, but not tested)
+
+## Summary
+
+A critical vulnerability was identified in Dolibarr ERP/CRM where:
+
+- **Administrator permission changes** are executed via **HTTP GET**
+- The **anti-CSRF token is exposed in the URL**
+- Low-privileged users can perform **HTML injection** on notes/fields
+
+When an administrator views the injected content and clicks the link,  
+the attacker **immediately gains admin rights**.
+
+---
+
+## Impact
+
+| Impacted Area | Severity |
+|--------------|:-------:|
+| Access Control Integrity | Critical |
+| Privilege Escalation | Critical |
+| Admin Account Takeover | Critical |
+
+### CVSS v3.1 
+**9.0 — Critical** (AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H)
+
+| CWE | Title |
+|--------------|:-------:|
+| CWE-352 | Cross-Site Request Forgery |
+| CWE-598 | Information Exposure in Query Strings |
+| CWE-284 | Improper Access Control |
+
+---
+
+## Root Causes
+
+- State-changing actions executed via **GET**
+- CSRF token placed in **query string**
+- HTML injection in user-controlled fields
+- No confirmation before privilege modification
+
+The intersection of these behaviors leads to a **Stored Priv-Esc chain attack**.
+
+---
+
+## Screenshots
+
+| Screenshot | Description |
+|-----------|-------------|
+| ![Screen1](1.png) | Link inserted by low-privileged user |
+| ![Screen2](2.png) | Admin view of user rights page |
+| ![Screen3](3.png) | Admin clicking the injected link |
+| ![Screen4](4.png) | Attacker now has admin permissions |
+
+
+---
+
+## Mitigations (suggested to vendor)
+
+- Convert **all permission-changing actions** to POST
+- Remove CSRF tokens from URLs (store in POST body)
+- Add confirmation dialog on admin permission changes
+- Add `Referrer-Policy: strict-origin`
+- Additional validation on HTML rendering contexts
+
+---
+
+## Versions Affected
+
+- 22.0.9
+- patch: [TBD]
+
+---
+
+## Disclosure Timeline
+
+| Date | Event |
+|------|-------|
+| 2025-12-03 | Vulnerability discovered |
+| 2025-12-05 | Report sent to Dolibarr Security Team |
+| 2025-12-09 | PM the Tech Lead |
+| *Pending* | Fix developed and released |
+| *Pending* | CVE assignment |
+| *Pending* | Public disclosure allowed |
+
+---
+
+## Credits
+
+**Researcher:**  
+*Simone Biondi*  
+
+---
