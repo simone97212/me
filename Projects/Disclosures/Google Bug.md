@@ -7,7 +7,7 @@ Affected product: Android 16
 
 Bug: Bluetooth mouse crashes the phone when unlock it with face
 
-**Summary**
+# Summary
 
 I use a bluetooth mouse for operating with my Google Pixel 9. With the update to Android 16, the interaction between cursor and unlock screen with face screen will crash the phone.
 
@@ -33,7 +33,7 @@ Black screen will become!
 
 <img src=screen/google/3.png width=200 heigth=300>
 
-**Bug report**
+# Bug report
 
 Since this was not a security issue I opened a ticket on September 2025, following their bug report policy. After a few days I was contacted by Google Dev Team
 
