@@ -17,8 +17,9 @@ I'm Simone Biondi and I am a Penetration Tester at Accenture and Security Resear
 
 Here you can find and follow:
 
-- university and personal projects
-- disclosures, bugs
+- vulnerabilities disclosured
+- bugs
+- scrips
 - notes, etc...
 
 **Contacts**
