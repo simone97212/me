@@ -4,10 +4,14 @@ I'm Simone Biondi and I am an Penetration Tester at Accenture and Security Resea
 
 **Education**
 
-- Computer Science Degree @UNIMIB - Milano, 2019
 - CyberSecurity Master's Degree @UNIMI - Milano, 2026
-- eJPT Certification - 2021
+- Computer Science Degree @UNIMIB - Milano, 2019
+
+**Certs**
+
 - eWPT Certification - 2024
+- SAST Fortify - 2022
+- eJPT Certification - 2021
 
 **About Repository**
 
