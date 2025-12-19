@@ -1,6 +1,6 @@
 ## Bluetooth mouse crashes Google Pixels 9
 
-I use a bluetooth mouse for operating with my Google Pixel 9. With the last update the interaction between cursor and unlock screen with face screen will crashes the phone.
+I use a bluetooth mouse for operating with my Google Pixel 9. With the last update the interaction between cursor and unlock screen with face screen will crash the phone.
 
 **Steps to reproduce**
 
@@ -14,15 +14,15 @@ Es. Microsoft Authenticator
 
 Open Authenticator and try to unlock it
 
-![screen1](screen/google/1.png)
+<img src=screen/google/1.png width=200 heigth=300>
 
-Move cursor inside popup (apps don't allow screen on popup, so it doesn't appear)
+Move cursor inside popup (apps don't allow screenshots on popup, so it doesn't appear)
 
-![screen2](screen/google/2.png)
+<img src=screen/google/2.png width=200 heigth=300>
 
 Black screen will become!
 
-![screen3](screen/google/3.png)
+<img src=screen/google/3.png width=200 heigth=300>
 
 **Bug report**
 
