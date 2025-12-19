@@ -1,4 +1,13 @@
-## Bluetooth mouse crashes Google Pixels 9
+# Bluetooth mouse crashes Google Pixels 9
+
+Research and report by **Simone Biondi**
+
+---
+Affected product: Android 16
+
+Bug: Bluetooth mouse crashes the phone when unlock it with face
+
+**Summary**
 
 I use a bluetooth mouse for operating with my Google Pixel 9. With the last update the interaction between cursor and unlock screen with face screen will crash the phone.
 
