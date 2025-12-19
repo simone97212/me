@@ -3,7 +3,7 @@
 Research and report by **Simone Biondi**
 
 ---
-Affected product: Android 16
+Affected product: Android 16 - September 2025 "Material 3 Expressive" release (QPR1)
 
 Bug: Bluetooth mouse crashes the phone when unlock it with face
 
