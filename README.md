@@ -19,7 +19,7 @@ Here you can find and follow:
 
 - vulnerabilities disclosured
 - bugs
-- scrips
+- scripts
 - notes, etc...
 
 **Contacts**
