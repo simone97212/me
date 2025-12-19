@@ -3,13 +3,15 @@
 Research and report by **Simone Biondi**
 
 ---
-Affected product: Android 16 - September 2025 "Material 3 Expressive" release (QPR1)
+**Affected product:** Android Smartphones 
 
-Bug: Bluetooth mouse crashes the phone when unlock it with face
+**Version:** Android 16 - September 2025 "Material 3 Expressive" release (QPR1)
+
+**Bug:** Bluetooth mouse crashes the phone when try to unlock it with face
 
 # Summary
 
-I use a bluetooth mouse for operating with my Google Pixel 9. With the update to Android 16, the interaction between cursor and unlock screen with face screen will crash the phone.
+I use a bluetooth mouse for operating with my Google Pixel 9. With the update to Android 16 Sep 25, the interaction between cursor and unlock screen with face screen will crash the phone.
 
 **Steps to reproduce**
 
