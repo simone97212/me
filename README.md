@@ -9,3 +9,5 @@ I'm Simone Biondi and I am an Penetration Tester at Accenture and Security Resea
 - eJPT Certification - 2021
 - eWPT Certification - 2024
 
+**About Repository**
+Here you can find and follow my activities as university or personal projects, security issues disclosured, notes, etc...
