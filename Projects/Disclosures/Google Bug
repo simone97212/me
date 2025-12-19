@@ -14,7 +14,7 @@ Es. Microsoft Authenticator
 
 Open Authenticator and try to unlock it
 
-![screen1](screen/google/1.png)
+![screen1](screen/google/1.png =200x50)
 
 Move cursor inside popup (apps don't allow screen on popup, so it doesn't appear)
 
@@ -26,7 +26,7 @@ Black screen will become!
 
 **Bug report**
 
-Since this was a security issue I opened a ticket following their bug report policy. After a few days I was contacted by Google Dev Team
+Since this was not a security issue I opened a ticket following their bug report policy. After a few days I was contacted by Google Dev Team
 
 ![screen4](screen/google/4.png)
 
